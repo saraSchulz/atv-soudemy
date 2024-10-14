@@ -90,9 +90,7 @@ header nav ul li{
                         BANNER
 ======================================================*/
 
-main{
-    margin: 0 15vw 0 15vw;
-}
+
 main section.banner{
     text-align: center;
 }
@@ -108,9 +106,10 @@ main section.banner p{
                         CONTEUDO
 ======================================================*/
 
+
 main section.conteudo{
     background-color: #CBE4DE;
-    padding: 1vw 0 1vw 0 ;
+    padding: 1vw 1.5vw 1vw 1.5vw;
     margin: 5vw 0 0 0 ;
     text-align: center;
 }
@@ -119,6 +118,7 @@ main section.conteudo h2{
 }
 main section.conteudo p.text{
     color: #888888;
+    margin: 2vw;
 }
 main section.conteudo ul{
     display: flex;
@@ -126,15 +126,76 @@ main section.conteudo ul{
     justify-content: space-around;
 }
 main section.conteudo ul li{
-    width: 30%;
+    width: 25%;
     background-color: #ffffff;
-    margin: 2vw 2vw 2vw 2vw;
+    padding: 2vw;
+    border-radius: 1.5vw;
+    margin: 2vw ;
 }
-
-
-
+main section.conteudo ul li span{
+    background-color: #EFEFEF ;
+    padding: 2vw;
+    border-radius: 4vw;
+    margin: 0 ;
+}
+main section.conteudo ul li h3{
+    font-weight: bold;
+    margin: 10px;
+}
+main section.conteudo ul li p{
+    color: #888888
+}
 
 /*====================================================
                         BUILD
 ======================================================*/
-
+main section.build{
+    text-align: center;
+    padding: 2vw 1vw 5vw 1vw;
+}
+main section.build h2{
+    font-size: 1.8rem;
+    margin: 2vw;
+}
+main section.build p{
+    color: #888888;
+    margin: 0 0 2vw 0;
+}
+main section.build div.fora{
+    display: flex;
+}
+main section.build div.fora div.um img{
+    margin: 1vw 2vw 1vw 10vw;
+ 
+}
+main section.build div.fora div.dois h3{
+    font-size: 2vw ;
+    font-weight: bold;
+    margin: 1.5vw;
+}
+main section.build div.fora div.dois {
+    margin: 10vw;
+}
+/*====================================================
+                        FOOTER
+======================================================*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #CBE4DE;
+    padding: 2vw 2vw 0 2vw;
+}
+footer p img{
+    margin: 2vw;
+}
+footer p{
+    color: #888888;
+}
+footer ul{
+    display: flex;
+}
+footer ul li {
+    margin: 2vw;
+}footer ul li a{
+    color: #888888;
+}
